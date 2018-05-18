@@ -1,0 +1,10 @@
+.videoWrapper, .textWrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+@media (min-width= 768px) {
+
+}
