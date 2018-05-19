@@ -1,10 +1,26 @@
-.videoWrapper, .textWrapper {
-  width: 90%;
+body {
+
+  font-family: 'Montserrat', arial;
+
+}
+
+.videoWrapper {
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
 
+.textWrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
 
-@media (min-width= 768px) {
+@media (min-width: 768px) {
+
+  .videoWrapper,
+  .textWrapper {
+    width: 800px;
+  }
 
 }
