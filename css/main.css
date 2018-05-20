@@ -1,8 +1,10 @@
+/* Main stylings */
+
 body {
-
   font-family: 'Montserrat', arial;
-
 }
+
+/* Classes changes */
 
 .videoWrapper {
   width: 100%;
@@ -12,11 +14,25 @@ body {
 
 .textWrapper {
   width: 80%;
-  margin: 0 auto;
+  margin: 3% auto 0;
   display: block;
 }
 
+.current {
+ color: orange;
+}
+
+.mejs__player {
+  background-color: lightblue;
+}
+
+/* Media queries */
+
 @media (min-width: 768px) {
+
+  body {
+    margin-top: 5%;
+  }
 
   .videoWrapper,
   .textWrapper {
