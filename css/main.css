@@ -22,8 +22,19 @@ body {
  color: orange;
 }
 
-.mejs__player {
-  background-color: lightblue;
+.videoWrapper .mejs__button,
+.videoWrapper .mejs__time-current {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  color: #ffffff;
+  background: orange;
+  text-decoration: none;
+}
+
+.videoWrapper .mejs__button {
+  display: block;
+  margin: -3px 5px 0 5px;
 }
 
 /* Media queries */
